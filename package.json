@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/shortenUrl.test.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "esm": "^3.2.25",
+    "mocha": "^10.5.1"
+  }
+}
